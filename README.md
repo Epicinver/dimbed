@@ -4,34 +4,31 @@ Discord embed builder.
 
 # How to use Dimbed
 
-Install your preffered version of Dimbed then open up your preferred version; Windows Forms OR Python version.
+Install your preferred version of Dimbed, then open it up; choose either the Windows Forms or Python version. 
 -
-Choose the option you'd like, there are three.
+Select one of the three options available:
 -
-Here are the options:
-Bot; Asks for a bot token and adds a command to the bot which will send the embed IF the bot is online.
-Webhook; Asks for a webhook URL and sends the embed immediately in whatever channel it is set to send requests to.
-Clipboard; Experimental, will copy the embed to your clipboard so you can send it anywhere.
+1. Bot: Requires a bot token and adds a command to the bot to send the embed, provided the bot is online.
+2. Webhook: Requests a webhook URL and immediately sends the embed to the designated channel.
+3. Clipboard: Experimental feature that copies the embed to your clipboard for use anywhere.
 -
-# How do i export embeds?
-Build your embeds and click "Export Script".
-Just note that you will need the following modules:
+# How do I export embeds?
+Build your embeds and click "Export Script." Keep in mind the required modules:
 -
-Discord.py IF your using a Bot.
+- Discord.py if you're using a Bot.
+- Requests if you're using a Webhook.
+(Note: Modules are only needed for the Python version.)
 -
-Requests IF your using a Webhook.
+Exported scripts will be saved in the same directory as the tool. For example:
 -
-Exported scripts will save to the directory of which the tool is stored.
-For example:
--
-If you store the tool in Program Files, it will be stored in C:\Program Files\Dimbed\exported_mm_dd_yy_hh_mm_ss_ms.py
-If you store the tool in your C:\ drive [please don't do that], it'll be C:\exported_mm_dd_yy_hh_mm_ss_ms.py 
+If the tool is stored in Program Files, the script will be saved to C:\Program Files\Dimbed\exported_mm_dd_yy_hh_mm_ss_ms.py.
+If stored in your C:\ drive [not recommended], it will be saved as C:\exported_mm_dd_yy_hh_mm_ss_ms.py.
 -
 
 # How to delete Dimbed
 
-If you downloaded the installer, just click Windows, type in "Dimbed" and click Uninstall.
+If you used the installer, simply go to Windows, search for "Dimbed," and click Uninstall.
 -
 
-If you downloaded the script/non-installer (coming soon... hopefully), then just delete all of Dimbed's files.
+If you downloaded the script/non-installer version (coming soon), just delete all of Dimbed's files.
 ----------------------------------------------------------------------------------------------------------------
