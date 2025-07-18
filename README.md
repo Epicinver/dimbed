@@ -1,0 +1,2 @@
+# dimbed
+Discord embed builder.
